@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import ReactTyped from "react-typed";
 
 const initialState = {
   name: "",
@@ -38,7 +39,17 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+              <h2>
+        Let's Get{" "}
+        <ReactTyped
+          strings={["Connected"]}
+          typeSpeed={100}
+          loop
+          backSpeed={30}
+          cursorChar="🔗"
+          showCursor={true}
+        />
+      </h2>
                 <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
@@ -149,9 +160,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2023 Referral. Design by{" "}
+            <a href="#" rel="nofollow">
+              Referral.ae
             </a>
           </p>
         </div>

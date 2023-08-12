@@ -3,10 +3,88 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {
+  createBrowserRouter,
+  Form,
+  RouterProvider,
+  useNavigate,
+} from "react-router-dom";
+import JsonData from "./data/data.json";
+import { useEffect } from "react";
+import { Navigation } from './components/navigation';
+import Abouts from './components/about1';
+import { Team } from './components/Team';
+import Annual from './components/annualCooperate';
+import Digital from './components/digitalMarketing';
+import Uaevisa from './components/uaeVisa';
+import Loans from './components/loans';
+import Investment from './components/investment';
+import Insurance from './components/insurance';
+import Realestate from './components/realEstate';
+import Banking from './components/banking';
+import Business from './components/business';
+import { Features } from './components/features';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path:"/about",
+    element:<Abouts/>
+  },
+  {
+    path:"/Team",
+    element:<Team/>
+  },
+  {
+    path:"/features",
+    element:<Features  />
+  },
+  {
+    path:"/Annual-cooperate",
+    element:<Annual/>
+  },
+  {
+    path:"/Banking",
+    element:<Banking/>
+  },
+  {
+    path:"/Business",
+    element:<Business/>
+  },
+  {
+    path:"/digital-market",
+    element:<Digital/>
+  },
+  {
+    path:"/insurance",
+    element:<Insurance/>
+  },
+  {
+    path:"/investment",
+    element:<Investment/>
+  },
+  {
+    path:"/loans",
+    element:<Loans/>
+  },
+  {
+    path:"/uaevisa",
+    element:<Uaevisa/>
+  },
+  {
+    path:"/real-estate",
+    element:<Realestate/>
+  }
+]);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

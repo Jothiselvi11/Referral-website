@@ -1,7 +1,12 @@
 import React from "react";
+import "../styles/nav.css"
+import {Link, useNavigate} from "react-router-dom";
 
 export const Navigation = (props) => {
+  const navigate= useNavigate();
+  
   return (
+    
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
@@ -18,7 +23,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            Referral.ae
           </a>{" "}
         </div>
 
@@ -28,38 +33,41 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
+              <Link href="#features" className="page-scroll" onClick={()=>{
+                navigate("/")
+              }}>
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
-                About
-              </a>
+              <Link href="#about1" className="page-scroll" to="/about">
+                About Us
+              </Link>
+              {/* <Link to="about1" className="page-scroll">About</Link> */}
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                Services
+              <a href="#services" className="page-scroll" >
+                Our Services
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
+            </li> */}
+            <li>
+              <Link to="/features" className="page-scroll">
+                Mission and visions
+              </Link>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
+              <Link href="#team" className="page-scroll" to="/team">
+                Our Team
+              </Link>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact
+              <a href="#contact" className="page-scroll" >
+                Contact Us
               </a>
             </li>
           </ul>
