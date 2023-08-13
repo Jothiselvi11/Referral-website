@@ -40,13 +40,13 @@ collaboration!
           
       
         </div> */}
-      </div>
-      <div style={{height:"500px" ,width:"100%"}}>
       
-      {props.data && <Carousel infiniteLoop autoPlay={true} transitionTime={2000} interval={4000} >
+      <div style={{ }} >
+      
+      {props.data && <Carousel infiniteLoop autoPlay={true} transitionTime={4000} >
       
             {props.data
-              ? props.data.slice(0,3).map((d, i) => (
+              ? props.data.map((d, i) => (
                   <div className="galcontainer"><div
                     key={`${props.data[i].title}-${i}`}
                     // className="col-sm-6 col-md-4 col-lg-4"
@@ -60,7 +60,7 @@ collaboration!
                     />
                   
                   </div>
-                  <div
+                  {/* <div
                     key={`${props.data[i+1].title}-${i+1}`}
                     // className="col-sm-6 col-md-4 col-lg-4"
                     className="gal3"
@@ -83,9 +83,9 @@ collaboration!
                       largeImage={props.data[i+2].largeImage}
                       smallImage={props.data[i+2].smallImage}
                       url={props.data[i+2].url}
-                    />
+                    /> */}
                   
-                  </div>
+                  {/* </div> */}
                   </div>
 
                 ))
@@ -96,6 +96,6 @@ collaboration!
             </Carousel>}
             </div>
     </div>
-
+</div>
   );
 };

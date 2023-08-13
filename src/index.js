@@ -24,6 +24,7 @@ import Realestate from './components/realEstate';
 import Banking from './components/banking';
 import Business from './components/business';
 import { Features } from './components/features';
+import { Contact } from './components/contact';
 
 
 const router = createBrowserRouter([
@@ -78,6 +79,10 @@ const router = createBrowserRouter([
   {
     path:"/real-estate",
     element:<Realestate/>
+  },
+  {
+    path:"/contact",
+    element:<Contact/>
   }
 ]);
 

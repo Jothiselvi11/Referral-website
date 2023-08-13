@@ -45,10 +45,22 @@ export const Navigation = (props) => {
               </Link>
               {/* <Link to="about1" className="page-scroll">About</Link> */}
             </li>
-            <li>
-              <a href="#services" className="page-scroll" >
+            <li className="dropdown">
+              <a href="#services" className="page-scroll dropbtn" >
                 Our Services
               </a>
+              <div class="dropdown-content">
+    <Link to="/banking">Banking</Link>
+    <Link to="/Annual-cooperate">Annual cooperate</Link>
+    <Link to="/business">Business Services</Link>
+    <Link to="/digital-market">Digital Marketing</Link>
+    <Link to="/insurance">Insurance</Link>
+    <Link to="/investment">Investment</Link>
+    <Link to="/loans">Loans</Link>
+    <Link to="/uaevisa">Golden Uae Visa</Link>
+    <Link to="/real-estate">Real Estate</Link>
+    
+  </div>
             </li>
             {/* <li>
               <a href="#portfolio" className="page-scroll">
@@ -66,9 +78,9 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <a href="#contact" className="page-scroll" >
+              <Link to="/contact" href="#contact" className="page-scroll" >
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

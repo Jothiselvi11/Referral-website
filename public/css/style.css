@@ -211,6 +211,50 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+/* Dropdown Button */
+.dropbtn {
+ 
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CBE4DE;
+  min-width: 160px;
+  box-shadow: 0 0 20px #0E8388;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #2C3333;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #2E4F4F; box-shadow: 0 0 20px #0E8388;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #2E4F4F;} */
 /* Header Section */
 .intro {
   display: table;
@@ -431,7 +475,11 @@ header .intro-text {
   margin-top: 20px;
 }
 .img-responsive{
-  box-shadow: 10px 10px 10px #CBE4DE;
+  height: 300px !important;
+  width: 500px !important;
+  /* padding: 20px ; */
+  /* box-shadow: 10px 10px 10px #CBE4DE; */
+  box-shadow: 0 0 20px #0E8388 ;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -457,11 +505,14 @@ header .intro-text {
   position: relative;
   margin: 0;
 }
-.img-responsive{
+/* .img-responsive{
   height: 300px;
   width: 500px;
   border: 10px solid #CBE4DE;
   
+} */
+.small{
+  border: 10px solid #CBE4DE;
 }
 .hover-bg .hover-text {
   position: absolute;
@@ -473,9 +524,10 @@ header .intro-text {
     rgba(99, 114, 255, 0.8) 0%,
     #CBE4DE 100%
   );
+  box-shadow: 0 0 20px #0E8388;
   padding: 30% 0 0;
-  height: 100%;
-  width: 100%;
+  height: 300px;
+  width: 500px;
   opacity: 0;
   transition: all 0.5s;
 }
@@ -732,18 +784,25 @@ label {
 .about1 >div>h1{
   font-size: 40px;
   color:#CBE4DE ;
-  font-weight: 800; }
+  font-weight: 800; 
+
+
+}
 /* /* } */
 .about1 >div >span{
   margin-top: 0px;
   font-size: 20px;
-  color: #2E4F4F;
+  color: #2C3333;
+  font-weight: 500;
+  opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .1s;
 
 }
 
 .about3{
   background-color: #CBE4DE;
-  padding: 30px;
+  padding-top: 20px;
   margin: 0px;
   padding-right: 40px;
   height: 700px;
@@ -854,25 +913,39 @@ label {
   padding: 0px;
   height: 700px;
   text-align: justify;
-  padding-right: 35px;
-  
-
-  }
+  padding-right: 35px;}
   .galcontainer{
     display: flex;
-    padding: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gal3{
+    height: 300px;
+    width: 500px;
+    background-color: black;
+   
+    
+  
+  }
+
+  /* }
+  .galcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
     margin: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-
-  }
-  .gal3{
-    
-   padding: 15px;
+  
     height: 300px;
-  width: 500px;
+    width: 500px;
+   
+
+  } */
+
  
-  }
+  /* } */
   .referral{
     width: 100%;
     height: 500px;
@@ -968,12 +1041,14 @@ label {
     height:800px ;
    }
    .gal3{
-    
+    height: 200px;
+    width: 250px;
+   
     
   
    }
    .img-responsive{
-    height: 150px;
+    height: 200px;
     width: 250px;
     /* // border: #010305; */
    }

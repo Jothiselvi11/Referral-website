@@ -16,7 +16,8 @@ export const Image = ({ title, largeImage, smallImage ,url}) => {
         <div className="hover-text">
             <h4>{title}</h4>
           </div>
-          <img src={smallImage} className="img-responsive" alt={title} />{" "}
+          <img src={smallImage} className="img-responsive" id="small"
+          alt={title} />{" "}
         </div>
           
         </Link>{" "}

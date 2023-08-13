@@ -3,9 +3,18 @@ import sample from '../video/v1.mp4';
 import { useEffect } from "react";
 import { useRef } from "react";
 import Typed from 'typed.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export const Header = (props) => {
   const el = React.useRef(null);
     React.useEffect(() => {
+      
+        AOS.init(
+          {
+            duration:1000
+          }
+        );
+      
         const typed = new Typed(el.current,
         {
             strings:["Referring","Earning"],
@@ -35,7 +44,7 @@ export const Header = (props) => {
                 Join Now To Start <span ref={el} className="invest"/>
                   
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p data-aos="zoom-in">{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   href="#contact" 
                   className="btn btn-custom btn-lg page-scroll" id="conbtn btns" style={{background: "#0E8388"}}

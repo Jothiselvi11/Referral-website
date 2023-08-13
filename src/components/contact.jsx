@@ -2,6 +2,8 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import ReactTyped from "react-typed";
+import { Header } from "./header";
+import { Navigation } from "./navigation";
 
 const initialState = {
   name: "",
@@ -34,6 +36,7 @@ export const Contact = (props) => {
   };
   return (
     <div>
+    <Navigation/>
       <div id="contact">
         <div className="container">
           <div className="col-md-8">
@@ -43,7 +46,7 @@ export const Contact = (props) => {
         Let's Get{" "}
         <ReactTyped
           strings={["Connected"]}
-          typeSpeed={100}
+          typeSpeed={200}
           loop
           backSpeed={30}
           cursorChar="🔗"
