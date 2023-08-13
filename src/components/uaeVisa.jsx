@@ -6,7 +6,7 @@ function Uaevisa(){
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="business">
             <h1>UAE Golden Visa</h1>
             <span>Open doors to new horizons with the prestigious UAE Golden Visa program through our

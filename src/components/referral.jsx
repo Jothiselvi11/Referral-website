@@ -3,11 +3,15 @@ import React from "react";
 export const Referral = (props) => {
 
     return(
-        <div className="referral"><div className="r1">
+        <div className="referral"
+        data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"
+><div className="r1">
         <h1>one-stop destination</h1>
         <p>Did you know that 74% of consumers identify word-of-mouth as a key
 influencer in their purchasing decision?</p>
-<div className="r2">
+<div className="r2" data-aos="zoom-out-down">
     <h2>So, what are you waiting for?</h2><div className="r3">
     <p>Unleash hidden potential of referrals to create exciting earning opportunities for you. Our
 concept is very simple - all we want is that you refer potential customers to the brands we

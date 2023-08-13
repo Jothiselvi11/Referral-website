@@ -6,7 +6,7 @@ function Insurance(){
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="about2">
             <h1>Insurance</h1></div>
             <div className="about3">

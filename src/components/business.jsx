@@ -6,7 +6,7 @@ function Business(){
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="business">
             <h1>Businessmen Services</h1>
             <span>

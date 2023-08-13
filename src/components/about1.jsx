@@ -2,12 +2,21 @@ import React from "react";
 import { Header } from "./header";
 import Footer from "./footer";
 import { Navigation } from "./navigation";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Abouts(){
+    React.useEffect(() => {
+      
+        AOS.init(
+          {
+            duration:1000
+          }
+        );})
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="about2">
             <h1>About us</h1>
             <span>Sharing value has never been this rewarding!</span>

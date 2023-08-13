@@ -19,7 +19,7 @@ export const Services = (props) => {
       />
           {/* <h2>Our Services</h2>
           <h1>You Can Refer To Us</h1> */}
-         <div className="s1"> <p>
+         <div className="s1" data-aos="zoom-out-up"> <p>
           At Referral.ae, we understand the value of your time and the importance of effortless referrals. That's why we've designed a program that allows you to refer others to our services and products without any hassle. Simply register and start referring, and when someone you refer qualifies for the product or engages 
           with our services, you'll be rewarded.</p><p>
           Our team brings together a wealth of expertise in various domains, including Businessmen

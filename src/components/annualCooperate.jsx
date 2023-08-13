@@ -6,7 +6,7 @@ function Annual(){
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="about2">
             <h1>Annual Corporate Services</h1></div>
            <div className="about4"> <p>"Partner with us in our profit-shared referral program and revolutionize your corporate

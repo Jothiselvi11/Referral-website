@@ -12,7 +12,7 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
         
-      <h2>Link to Our services</h2>
+      <h2 data-aos="fade-down">Link to Our services</h2>
           
           <p>
           Invest in your future and join us today to witness the transformative power of

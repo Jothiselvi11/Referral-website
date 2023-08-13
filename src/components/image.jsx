@@ -13,7 +13,7 @@ export const Image = ({ title, largeImage, smallImage ,url}) => {
         <div onClick={()=>{
           navigate(url)
         }}>
-        <div className="hover-text">
+        <div className="hover-text"  >
             <h4>{title}</h4>
           </div>
           <img src={smallImage} className="img-responsive" id="small"

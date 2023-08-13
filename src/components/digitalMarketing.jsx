@@ -6,7 +6,7 @@ function Digital(){
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="business">
             <h1>Digital Marketing</h1>
             <span>Join our referral partnership program and empower businesses to amplify their online

@@ -7,7 +7,7 @@ function Realestate(){
     return(
         <div>
            <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="business">
                 <h1>Real estate</h1>
                 <span>Unlock the gateway to perfect property solutions through our exclusive referral marketing

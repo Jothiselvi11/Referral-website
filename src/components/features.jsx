@@ -5,15 +5,24 @@ import JsonData from "../data/data.json";
 import { Header } from "./header";
 import { Navigation } from "./navigation";
 import Footer from "./footer";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export const Features = (props) => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
+
+      
+      AOS.init(
+        {
+          duration:1000
+        }
+      );
   }, []);
   return (
     <div>
 <Navigation/>
-    <div id="features" className="text-center">
+    <div id="features" className="text-center" data-aos="fade-up "data-aos-anchor-placement="top-bottom">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Mission And Vision</h2>

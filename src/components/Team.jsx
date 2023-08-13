@@ -10,7 +10,7 @@ export const Team = (props) => {
     <Navigation/>
     <div  className="">
       <div className="">
-      <div className="about1">
+      <div className="about1" data-aos="zoom-out">
       <div className="about2">
        <h1>Our Team</h1>
        <span>The Heart and Soul of Referral.ae: A Journey of Excellence</span></div>

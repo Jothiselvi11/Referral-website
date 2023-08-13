@@ -6,7 +6,7 @@ function Banking(){
     return(
         <div>
             <Navigation/>
-            <div className="about1">
+            <div className="about1" data-aos="zoom-out">
             <div className="about5">
             <h1>Banking and Regulatory Business Compliance</h1></div>
             <div className="about3"><h2>VAT Registration</h2>
