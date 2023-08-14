@@ -6,12 +6,20 @@ function Footer(){
         <div>
         <div id="footer">
         <div className="container text-center">
+        <p>
+            Understanding Islamic Bnaking | Terms & condition | Privacy Policy | Accessibility | Site Map
+          </p>
           <p>
-            &copy; 2023 Referral. Design by{" "}
-            <a href="#" rel="nofollow">
-              Referral.in
+             Copyright reserved by Abhu Dhabi Islamic Bank Public Joint Stock Comapany lincensed by Central Bank of Uae.
+            
+          </p>
+          <p>
+          Design by{" "}
+          <a href="#" rel="nofollow">
+              Referral.ae
             </a>
           </p>
+           
         </div>
       </div>
             

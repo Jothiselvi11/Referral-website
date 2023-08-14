@@ -44,6 +44,7 @@ collaboration!
       <div style={{ }} >
       
       {props.data && <Carousel infiniteLoop autoPlay={true} transitionTime={4000} >
+
       
             {props.data
               ? props.data.map((d, i) => (

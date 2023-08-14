@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/nav.css"
 import {Link, useNavigate} from "react-router-dom";
+import logo from "../video/logo3.png"
 
 export const Navigation = (props) => {
   const navigate= useNavigate();
@@ -22,9 +23,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          {/* <a className="navbar-brand page-scroll" href="#page-top">
             Referral.ae
-          </a>{" "}
+          </a>{" "} */}
+          <img src={logo} className="logo1"/>
         </div>
 
         <div
