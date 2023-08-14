@@ -430,6 +430,10 @@ header .intro-text {
   margin: 30px 0;
   color: #CBE4DE;
 }
+.aboutnew{
+  padding-top: 40px !important;
+  padding-bottom: 40px;
+}
 /* Services Section */
 #services {
   padding: 70px 0;
@@ -489,6 +493,11 @@ header .intro-text {
   /* padding: 20px ; */
   /* box-shadow: 10px 10px 10px #CBE4DE; */
   box-shadow: 0 0 20px #0E8388 ;
+}
+.img-responsives{
+  height: 300px !important;
+  width: 500px !important;
+  
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -1065,13 +1074,17 @@ label {
    .gal3{
     height: 200px;
     width: 250px;
-   
-    
+  
   
    }
    .img-responsive{
     height: 200px !important;
     width: 250px !important;
+    /* // border: #010305; */
+   }
+   .img-responsives{
+    height: 250px !important;
+    width: 400px !important;
     /* // border: #010305; */
    }
   /* .hover-text{

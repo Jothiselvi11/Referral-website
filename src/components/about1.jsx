@@ -4,6 +4,7 @@ import Footer from "./footer";
 import { Navigation } from "./navigation";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ReactFloaterJs from 'react-floaterjs';
 
 function Abouts(){
     React.useEffect(() => {
@@ -21,6 +22,30 @@ function Abouts(){
             <h1>About us</h1>
             <span>Sharing value has never been this rewarding!</span>
             </div>
+            <div className="container aboutnew ">
+        <div className="row">
+          <div className="col-xs-12 col-md-6">
+            {" "}
+            {/* <img src="img/ab.jpg" className="img-responsive" alt="" />{" "} */}
+            <ReactFloaterJs>
+  <img src="img/ab1.jpg" className="img-responsives " />
+</ReactFloaterJs>
+          </div>
+          <div className="col-xs-12 col-md-6">
+            <div className="about-text">
+              <h2>Welcome To Referral.ae</h2>
+              {/* <span>Welcome To Referral</span> */}
+              <p  data-aos="flip-down">Our platform offers a seamless and hassle-free way to refer friends and colleagues while reaping the benefits
+               of lucrative rewards.At Referral.ae, we know your time is precious and respect that.
+                That's why we've specially crafted a referral program that allows you to refer others to our exceptional services and products effortlessly. 
+                The best part? Our referral program seamlessly integrates into your daily routine. So, whether at work, socializing with friends, or simply
+                 relaxing at home, you can easily refer others and watch your rewards grow. 
+              Register with us and start referring today!</p>
+              </div>
+              </div>
+              </div>
+              </div>
+            
             {/* <div className="about3">
             <h1>About us</h1>
             <span>Sharing value has never been this rewarding!</span>
