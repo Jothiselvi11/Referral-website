@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/nav.css"
 import {Link, useNavigate} from "react-router-dom";
-import logo from "../video/logo3.png"
+import logo from "../video/new3.png"
 
 export const Navigation = (props) => {
   const navigate= useNavigate();
@@ -52,15 +52,17 @@ export const Navigation = (props) => {
                 Our Services
               </a>
               <div class="dropdown-content">
-    <Link to="/banking">Banking</Link>
-    <Link to="/Annual-cooperate">Annual cooperate</Link>
-    <Link to="/business">Business Services</Link>
-    <Link to="/digital-market">Digital Marketing</Link>
-    <Link to="/insurance">Insurance</Link>
-    <Link to="/investment">Investment</Link>
+              <Link to="/real-estate">Real Estate</Link>
+              <Link to="/business">Business Services</Link>
+    <Link to="/banking">Banking and business compliance</Link>
     <Link to="/loans">Loans</Link>
     <Link to="/uaevisa">Golden Uae Visa</Link>
-    <Link to="/real-estate">Real Estate</Link>
+    <Link to="/digital-market">Digital Marketing</Link>
+    <Link to="/insurance">Insurance Services</Link>
+    <Link to="/investment">Investment Services</Link>
+   
+   
+   
     
   </div>
             </li>
@@ -81,7 +83,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <Link to="/contact" href="#contact" className="page-scroll" >
-                Contact Us
+                Join Us
               </Link>
             </li>
           </ul>

@@ -4,6 +4,8 @@ import React from "react";
 import ReactTyped from "react-typed";
 import { Header } from "./header";
 import { Navigation } from "./navigation";
+import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 const initialState = {
   name: "",
@@ -89,17 +91,66 @@ export const Contact = (props) => {
                     </div>
                   </div>
                 </div>
+                
                 <div className="form-group">
-                  <textarea
+                  {/* <textarea
                     name="message"
                     id="message"
                     className="form-control"
-                    rows="4"
-                    placeholder="Message"
+                    rows="1"
+                    placeholder="Product"
                     required
                     onChange={handleChange}
-                  ></textarea>
+                  >
+                    
+                  </textarea> */}
+                  <div>
+                  <select placeholder="Product" name="cars" id="cars" className="form-control drop">
+                  
+    <option value="volvo" className="dropdown-content">Products</option>
+    <option value="Real Estate" className="drt">Real Estate</option>
+    <option value="Business Services">Business Services</option>
+    <option value="Banking">Banking & Business Compliance</option>
+    <option value="Loans">Loans</option>
+    <option value="visa">UAE Golden Visa</option>
+    <option value="Digital Marketing">Digital Marketing </option>
+    <option value="Insurance">Insurance</option>
+    <option value="Investment">Investment</option>
+
+  </select>
+  </div>
                   <p className="help-block text-danger"></p>
+                </div>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <div><input
+                        type="text"
+                        id="referral-name"
+                        name="referral-name"
+                        className="form-control"
+                        placeholder="Referral person Name"
+                        required
+                        onChange={handleChange}
+                      />
+                    
+                      </div>
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="integer"
+                        id="r-number"
+                        name="r-number"
+                        className="form-control"
+                        placeholder="Referral Contact Number"
+                        
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
@@ -170,6 +221,7 @@ export const Contact = (props) => {
           </p>
         </div>
       </div> */}
+      <Footer/>
     </div>
   );
 };

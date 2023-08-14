@@ -26,28 +26,20 @@ export const Features = (props) => {
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Mission And Vision</h2>
-          <p>"Your Network, Your Rewards"</p>
+          <p style={{fontWeight:"500"}} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">"Your Network, Your Rewards"</p>
         </div>
-        {/* <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-              ))
-            : "Loading..."}
-        </div> */}
+       
         <div className="row f1">
           {landingPageData.Features
             ? landingPageData.Features.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                <div key={`${d.title}-${i}`} className="col-xs-12 col-md-12">
                   {" "}
-                  <i className={d.icon}></i>
+                  <i className={d.icon} data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></i>
                   <h3>{d.title}</h3>
-                  <p>{d.text}</p>
+                  <p style={{fontSize:"20px"}}>{d.text}</p>
                 </div>
               ))
             : "Loading..."}

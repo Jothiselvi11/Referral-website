@@ -65,7 +65,15 @@ protection, and other industry-specific regulations.
 individuals to specify how they want their assets and estate to be distributed after their death,
 ensuring their wishes are honored and their loved ones are taken care of according to their
 preferences.
-</p></div>
+</p>
+<div className="annual1">
+<h1 >Annual Corporate Services</h1></div>
+            <p>"Partner with us in our profit-shared referral program and revolutionize your corporate
+journey. Our specialized annual corporate services are meant to streamline operations, from
+company formation to compliance and ongoing support. Participate now to unlock the
+potential for increased profits and business growth. Your success awaits!"</p>
+            
+            </div>
             </div>
             <Footer/>
         </div>

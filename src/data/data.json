@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Join Now To Start Referring And Earning!",
-    "paragraph": "Refer and earn by connecting us with individuals or businesses in need of these products & services."
+    "paragraph": "Refer and earn by connecting us with individuals or businesses in need of Our products & services."
   },
   "About": {
     "paragraph": "Our platform offers a seamless and hassle-free way to refer friends and colleagues while reaping the benefits of lucrative rewards.At Referral.ae, we know your time is precious and respect that. That's why we've specially crafted a referral program that allows you to refer others to our exceptional services and products effortlessly. The best part? Our referral program seamlessly integrates into your daily routine. So, whether at work, socializing with friends, or simply relaxing at home, you can easily refer others and watch your rewards grow. Register with us and start referring today!",
@@ -20,55 +20,50 @@
     {
       "title": "Real Estate",
       "largeImage": "components/about1.jsx",
-      "smallImage": "img/portfolio/real.jpg",
+      "smallImage": "img/portfolio/real.png",
       "url":"/real-estate"
     },
     {
       "title": "Businessmen Services",
       "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/business.jpg",
+      "smallImage": "img/portfolio/busin.png",
       "url":"/Business"
     },
-    {
-      "title": "Annual Corporate Services",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/cooperate.png",
-      "url":"/Annual-cooperate"
-    },
+   
     {
       "title": "Banking and Business Regulatory Compliance",
       "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/banking.jpg",
+      "smallImage": "img/portfolio/bank.png",
       "url":"/Banking"
     },
     {
       "title": "UAE Golden Visa",
       "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/visa.jpg",
+      "smallImage": "img/portfolio/visa.png",
       "url":"/uaevisa"
     },
     {
       "title": "Digital Marketing:",
       "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg",
+      "smallImage": "img/portfolio/digital11.png",
       "url":"/digital-market"
     },
     {
       "title": "Loans",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/loan.webp",
+      "smallImage": "img/portfolio/loans.png",
       "url":"/loans"
     },
     {
       "title": "Insurance",
       "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/insurance.jpg",
+      "smallImage": "img/portfolio/insurance1.jpg",
       "url":"/insurance"
     },
     {
       "title": "Investment",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/invest.webp",
+      "smallImage": "img/portfolio/invest.png",
       "url":"/investment"
     }
   ],
@@ -188,23 +183,19 @@
     {
       "icon": "fa fa-comments-o",
       
-      "text": "we believe in the power of connections and their potential for transformative rewards.Our mission is to harness the capabilities of artificial intelligence and your network strength to redefine how referrals are made."
+      "text": "At Referral.ae, we believe in the power of connections and their potential for transformative rewards.Our mission is to harness the capabilities of artificial intelligence and your network’s strength to redefine how referrals are made. By seamlessly integrating cutting-edge AI technology into our referral marketing program, we envision a future where individuals and businesses can effortlessly leverage their networks to unlock a world of rewards.."
 
     },
     {
       "icon": "fa fa-bullhorn",
       
-      "text": "y seamlessly integrating cutting-edge AI technology into our referral marketing program, we envision a future where individuals and businesses can effortlessly leverage their networks to unlock a world of rewards."
+      "text": "We strive to create a dynamic platform that empowers our users to refer confidently, knowing that AI-driven precision will match the perfect opportunities to their connections. Our vision is to be the leading force in revolutionizing referral marketing, empowering individuals to earn rewards and businesses to thrive through organic, genuine referrals."
     },
-    {
-      "icon": "fa fa-bullhorn",
-      
-      "text": "Our vision is to be the leading force in revolutionizing referral marketing, empowering individuals to earn rewards and businesses to thrive through organic, genuine referrals."
-    },
+  
     {
       "icon": "fa fa-magic",
       
-      "text": "Together, we create a network where everyone's efforts are celebrated, and rewards are earned ethically and effortlessly. Your network, your rewards â€“ a new era of referral marketing awaits with Referral.ae."
+      "text": "With a commitment to innovation, trust, and inclusivity, Referral.ae aims to unite communities, foster collaboration, and redefine success. Together, we create a network where everyone&#39;s efforts are celebrated, and rewards are earned ethically and effortlessly. Your network, your rewards – a new era of referral marketing awaits with Referral.ae."
     }
   ]
 }
