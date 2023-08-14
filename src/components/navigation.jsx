@@ -26,7 +26,7 @@ export const Navigation = (props) => {
           {/* <a className="navbar-brand page-scroll" href="#page-top">
             Referral.ae
           </a>{" "} */}
-          <img src={logo} className="logo1"/>
+          <Link to="/"><img src={logo} className="logo1"/></Link>
         </div>
 
         <div

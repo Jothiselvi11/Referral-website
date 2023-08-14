@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Join Now To Start Referring And Earning!",
-    "paragraph": "Refer and earn by connecting us with individuals or businesses in need of Our products & services."
+    "paragraph": "Unlock the Potential of Word-of-Mouth Marketing with Referral.ae!"
   },
   "About": {
     "paragraph": "Our platform offers a seamless and hassle-free way to refer friends and colleagues while reaping the benefits of lucrative rewards.At Referral.ae, we know your time is precious and respect that. That's why we've specially crafted a referral program that allows you to refer others to our exceptional services and products effortlessly. The best part? Our referral program seamlessly integrates into your daily routine. So, whether at work, socializing with friends, or simply relaxing at home, you can easily refer others and watch your rewards grow. Register with us and start referring today!",
@@ -20,51 +20,21 @@
     {
       "title": "Real Estate",
       "largeImage": "components/about1.jsx",
-      "smallImage": "img/portfolio/real.png",
+      "smallImage": "img/portfolio/home1.jpg",
       "url":"/real-estate"
     },
     {
       "title": "Businessmen Services",
       "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/busin.png",
+      "smallImage": "img/portfolio/bus.jpeg",
       "url":"/Business"
     },
    
     {
-      "title": "Banking and Business Regulatory Compliance",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/bank.png",
-      "url":"/Banking"
-    },
-    {
-      "title": "UAE Golden Visa",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/visa.png",
-      "url":"/uaevisa"
-    },
-    {
-      "title": "Digital Marketing:",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/digital11.png",
-      "url":"/digital-market"
-    },
-    {
       "title": "Loans",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/loans.png",
+      "smallImage": "img/portfolio/mort.png",
       "url":"/loans"
-    },
-    {
-      "title": "Insurance",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/insurance1.jpg",
-      "url":"/insurance"
-    },
-    {
-      "title": "Investment",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/invest.png",
-      "url":"/investment"
     }
   ],
   "Services": [

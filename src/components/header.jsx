@@ -17,7 +17,7 @@ export const Header = (props) => {
       
         const typed = new Typed(el.current,
         {
-            strings:["Referral.ae!"],
+            strings:["Referring!"," Earning!"],
             typeSpeed:100,
             backSpeed:100,
             backDelay:1000,
@@ -41,7 +41,7 @@ export const Header = (props) => {
     <source src={sample} type='video/mp4' />
 </video></div> */}
                 <h1>
-                Unlock the Potential of Word-of-Mouth Marketing with  <span ref={el} className="invest"/>
+                Join Now To Start  <span ref={el} className="invest"/>
                   
                 </h1>
                 <p data-aos="zoom-in">{props.data ? props.data.paragraph : "Loading"}</p>

@@ -2,8 +2,16 @@ import React from "react";
 import { Header } from "./header";
 import Footer from "./footer";
 import { Navigation } from "./navigation";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Realestate(){
+    React.useEffect(() => {
+      
+        AOS.init(
+          {
+            duration:1000
+          }
+        );})
     return(
         <div>
            <Navigation/>

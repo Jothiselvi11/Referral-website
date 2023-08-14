@@ -25,6 +25,8 @@ import Banking from './components/banking';
 import Business from './components/business';
 import { Features } from './components/features';
 import { Contact } from './components/contact';
+import Terms from './components/TermsCondition';
+import Privacy from './components/privacy';
 
 
 const router = createBrowserRouter([
@@ -83,7 +85,16 @@ const router = createBrowserRouter([
   {
     path:"/contact",
     element:<Contact/>
-  }
+  },
+  {
+    path:"/terms-conditions",
+    element:<Terms/>
+  },
+  {
+    path:"/Privacy-policy",
+    element:<Privacy/>
+  },
+
 ]);
 
 ReactDOM.render(

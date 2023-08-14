@@ -1,8 +1,16 @@
 import React from "react";
 import { Navigation } from "./navigation";
 import Footer from "./footer";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Uaevisa(){
+    React.useEffect(() => {
+      
+        AOS.init(
+          {
+            duration:1000
+          }
+        );})
     return(
         <div>
             <Navigation/>

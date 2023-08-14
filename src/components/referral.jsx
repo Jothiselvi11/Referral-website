@@ -1,6 +1,15 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Referral = (props) => {
+    React.useEffect(() => {
+      
+        AOS.init(
+          {
+            duration:1000
+          }
+        );})
 
     return(
         <div className="referral"

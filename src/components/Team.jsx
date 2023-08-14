@@ -3,8 +3,17 @@ import { Header } from "./header";
 import Footer from "./footer";
 import { Navigate } from "react-router-dom";
 import { Navigation } from "./navigation";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Team = (props) => {
+  React.useEffect(() => {
+      
+    AOS.init(
+      {
+        duration:1000
+      }
+    );})
   return (
     <div>
     <Navigation/>

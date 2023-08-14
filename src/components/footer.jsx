@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function Footer(){
@@ -7,7 +8,11 @@ function Footer(){
         <div id="footer">
         <div className="container text-center">
         <p>
-            Understanding Islamic Bnaking | Terms & condition | Privacy Policy | Accessibility | Site Map
+            |  <Link to="/terms-conditions" href="#" rel="nofollow">
+              Terms and Conditions
+            </Link> | <Link to="/privacy-policy" href="#" rel="nofollow">
+              Privacy Policy
+            </Link> | 
           </p>
           <p>
              Copyright reserved by Abhu Dhabi Islamic Bank Public Joint Stock Comapany lincensed by Central Bank of Uae.

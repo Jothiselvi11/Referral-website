@@ -1,7 +1,16 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Services = (props) => {
+  React.useEffect(() => {
+      
+    AOS.init(
+      {
+        duration:1000
+      }
+    );})
   return (
     <div id="services" className="text-center">
       <div className="container">
