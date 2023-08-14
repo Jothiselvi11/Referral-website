@@ -14,10 +14,10 @@ function Footer(){
               Privacy Policy
             </Link> | 
           </p>
-          <p>
+          {/* <p>
              Copyright reserved by Abhu Dhabi Islamic Bank Public Joint Stock Comapany lincensed by Central Bank of Uae.
             
-          </p>
+          </p> */}
           <p>
           Design by{" "}
           <a href="#" rel="nofollow">
