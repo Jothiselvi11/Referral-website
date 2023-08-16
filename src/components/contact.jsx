@@ -92,18 +92,22 @@ export const Contact = (props) => {
                   </div>
                 </div>
                 
-                <div className="form-group">
-                  {/* <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="1"
-                    placeholder="Product"
-                    required
-                    onChange={handleChange}
-                  >
-                    
-                  </textarea> */}
+                <div className="row">
+                <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="integer"
+                        id="r-number"
+                        name="r-number"
+                        className="form-control"
+                        placeholder="Contact Number"
+                        
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                <div className="col-md-6">
+                <div className="form-group ">
                   <div>
                   <select placeholder="Product" name="cars" id="cars" className="form-control drop">
                   
@@ -118,7 +122,7 @@ export const Contact = (props) => {
     <option value="Investment">Investment</option>
 
   </select>
-  </div>
+  </div></div></div>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="row">

@@ -776,7 +776,7 @@ label {
 .about2{
 
   margin-top: 80px;
-  height: 250px;
+  height: 250px !important;
   padding: 0px;
   /* display: table; */
     width: 100%;
@@ -839,11 +839,18 @@ label {
 
 }
 .annual1{
+  height: 300px;
  text-align: center;
   color: #0E8388;
   width: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+.annual1>p{
+  color: #2C3333;
+  font-size: 20px;
+  padding: 50px;
 }
 .about1 >div >p{
   margin-top: 0px;
@@ -935,7 +942,7 @@ label {
     background-color: #CBE4DE;
   margin: 0px;
   padding: 0px;
-  height: 1500px;
+  height: 3800px;
   text-align: justify;
   padding-right: 35px;
   
@@ -1011,7 +1018,7 @@ label {
     color: #2E4F4F;
    }
    .r3{
-    box-shadow: 0 0 10px #0E8388;
+    box-shadow: 0 0  #0E8388;
     padding: 20px;
 
    }
@@ -1023,10 +1030,53 @@ label {
     animation: zoomIn 1s ease forwards;
     /* animation-delay: .6s; */
    }
+   .bus{
+    padding: 50px;
+    margin-left: 30px !important;
+    
+   }
+   .bus > div > h2{
+    font-size: 25px !important;
+    color: #0E8388;
+    margin-top: 10px;
+   }
+   .bus > div > p{
+    font-size: 15px !important;
+    font-weight: 600;
+    color: #2C3333;
+   }
+   .row > h2{
+    font-size: 20px !important;
+   }
+   .bus-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+   }
 
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .bus{
+    padding: 20px !important;
+   margin-left: 0px !important;
+   margin-left: 5px !important;
+   padding-right: 15px !important;
+
+  }
+  .annual1{
+    height: 500px;
+  }
+  .bus-img{
+    width: 350px;
+    height: auto;
+
   }
   .referral{
     height: 1000px;
@@ -1066,7 +1116,7 @@ label {
     padding: 10px;
    }
    .about31{
-    height: 3100px;
+    height: 4300px;
    }
    .about6{
     height: 1700px;
